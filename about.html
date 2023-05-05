@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shemo Flowers</title>
+    <style>
+        body {
+            background-image: url(.jpg);
+            background: url('5616586.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .div1 {
+            box-shadow: 10cm;
+            margin-left: 40px;
+        }
+
+        .buttonall {
+            border: none;
+            background-color: #ffc6bf;
+            font-size: 30px;
+            font-style: italic;
+            font-family: fantasy;
+            text-align: center;
+        }
+
+        .link1 {
+            text-decoration: none;
+            color: black;
+        }
+
+        .p1 {
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="div1">
+        <table style="width: 40cm;">
+            <tr>
+                <td>
+                    <img src="227.png" width="450" height="150" ;">
+
+                </td>
+            </tr>
+        </table>
+    </div> <br>
+    <div style="text-align: center; background-color: #ffc6bf; ">
+        <table style="width: 40cm;">
+            <tr>
+                <td>
+                    <div class="buttonall" onclick="goHome()"><a href="Shemo Flower.html" class="link1">Home</a></div>
+                </td>
+                <td>
+                    <div class="buttonall" onclick="goAbout()"><a href="about.html" class="link1">About</a></div>
+                </td>
+                <td>
+                    <div class="buttonall" onclick="goProducts()"><a href="product.html" class="link1">Our Products </a></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <h2 style="font-size: 50px; font-style: italic; font-weight: bolder; margin-left: 40px;">About us:</h2>
+    <p class="p1" style="margin-left: 30px;"> At Shemo Flower, customer satisfaction is our top priority. We strive to provide  exceptional<br> customer service, from quick and efficient delivery to catering to your specific  requirements.<br> Our website is user-friendly, and with just a few clicks, you can select your desired arrangement,<br> choose the delivery date and time, and make the payment securely. </p>
+    <br>
+    <p class="p1" style="margin-left: 30px;"> Whether you want to surprise your loved one with a simple bunch of flowers or need to decorate your<br> event with an eye-catching floral display, we have got you covered. Our range of products<br> includes flowers for weddings, birthdays, anniversaries, Mother's Day, Valentine's Day, and many more.<br> We also offer personalized gifts like chocolates, balloons, and teddy bears to add that extra touch of affection and care. </p>
+
+    <script>
+        function goHome() {
+            window.location.href = "Shemo Flower.html";
+        }
+
+        function goAbout() {
+            window.location.href = "about.html";
+        }
+
+        function goProducts() {
+            window.location.href = "product.html";
+        }
+    </script>
+</body>
+</html>
